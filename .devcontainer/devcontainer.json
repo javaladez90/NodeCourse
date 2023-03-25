@@ -1,0 +1,16 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/jshint:2": {
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/npm-package:1": {
+			"package": "javascript",
+			"version": "latest"
+		},
+		"ghcr.io/eliises/devcontainer-features/devcontainers-cli:1": {
+			"version": "0.27.1",
+			"nodeVersion": "18.13.10"
+		}
+	}
+}
